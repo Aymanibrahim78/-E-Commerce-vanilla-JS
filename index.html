@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce</title>
+    <!-- Link Style CSS -->
+    <link rel="stylesheet" href="CSS/style.css" />
+    <!-- Link Fonts Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!--Link Render All Elements Normally  -->
+    <link rel="stylesheet" href="CSS/normalize.css" />
+    <!-- Link Font Awesome Library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Link Js  -->
+    <script defer src="Js/main.js"></script>
+    <script defer src="Js/pageProduct.js"></script>
+    <script defer src="Js/CartPage.js"></script>
+    <script defer src="Js/lovePage.js"></script>
+  </head>
+  <body>
+    <!-- Icon UP -->
+    <i class="fa-solid fa-circle-arrow-up upToTop"></i>
+
+    <!-- Strat Header & Landing Page -->
+    <header id="Home">
+      <div class="header">
+        <nav class="nav">
+          <div class="container">
+            <div class="navContent">
+                <a href="index.html"><img class="logo" src="img/logo.png" alt="Logo" /></a>
+              <ul class="links">
+                <li><i class="fa-solid fa-xmark close"></i></li>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Products">Products</a></li>
+                <li><a href="#About">About</a></li>
+                
+              </ul>
+              <div class="raghtNav">
+                <i class="fa-solid fa-heart love">
+                  <span class="products-love">0</span>
+                </i>
+                <i class="fa-solid fa-bag-shopping cart">
+                  <span class="products-number">0</span>
+                </i>
+
+                <a href="login.html" class="sign-in"><i class="fa-solid fa-right-to-bracket"></i>Sign in</a>
+                <a href="ragister.html" class="ragister"><i class="fa-solid fa-user-plus"></i>Ragister</a>
+                <i class="fas fa-outdent menu"></i>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div class="landing">
+          <div class="container">
+            <div class="landingMob">
+              <div class="landingContent">
+                <h4>Trade-in-offer</h4>
+                <h1>Super value deals <span>On all products</span></h1>
+                <p>Save more with coupons & up to 70% off!</p>
+                <button><a href="">Shop Now</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- End Header  & Landing Page -->
+
+    <!-- Start Section Brand -->
+    <section>
+      <div class="container">
+        <div class="brand">
+          <img src="img/brand/brand1.png" alt="" />
+          <img src="img/brand/brand2.png" alt="" />
+          <img src="img/brand/brand3.png" alt="" />
+          <img src="img/brand/brand4.png" alt="" />
+          <img src="img/brand/brand5.png" alt="" />
+          <img src="img/brand/brand6.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- End Section Brand -->
+
+    <!-- Start Section Products -->
+    <section id="Products">
+      <div class="container">
+        <div class="special-heading">
+          <h2>Featured Products</h2>
+          <p>Summer Collection New Modern Design</p>
+        </div>
+        <div class="Products">
+          <div class="cardProduct">
+            <div class="love-product">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+            <img class="img-product" src="img/products/f1.jpg" alt="" />
+            <div class="info">
+              <p class="taitlebarnd">zara</p>
+              <h3 class="taitleProduct">Cartoon Astronaut T-Shirts</h3>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h4 class="priceProduct">$34</h4>
+              <div class="shopping">
+                <button class="fa-solid fa-cart-shopping" ></button>
+              </div>
+            </div>
+          </div>
+          <div class="cardProduct">
+            <div class="love-product">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+            <img class="img-product" src="img/products/f2.jpg" alt="" />
+            <div class="info">
+              <p class="taitlebarnd">adidas</p>
+              <h3 class="taitleProduct">Cartoon Astronaut T-Shirts</h3>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h4 class="priceProduct">$22</h4>
+              <div class="shopping">
+                <button class="fa-solid fa-cart-shopping" ></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="cardProduct">
+            <div class="love-product">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+            <img class="img-product" src="img/products/f3.jpg" alt="" />
+            <div class="info">
+              <p class="taitlebarnd">nike</p>
+              <h3 class="taitleProduct">Cartoon Astronaut T-Shirts</h3>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h4 class="priceProduct">$50</h4>
+              <div class="shopping">
+                <button class="fa-solid fa-cart-shopping" ></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="cardProduct">
+            <div class="love-product">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+            <img class="img-product" src="img/products/f4.jpg" alt="" />
+            <div class="info">
+              <p class="taitlebarnd">adidas</p>
+              <h3 class="taitleProduct">Cartoon Astronaut T-Shirts</h3>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h4 class="priceProduct">$45</h4>
+              <div class="shopping">
+                <button class="fa-solid fa-cart-shopping" ></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="cardProduct">
+            <div class="love-product">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+            <img class="img-product" src="img/products/f5.jpg" alt="" />
+            <div class="info">
+              <p class="taitlebarnd">zara</p>
+              <h3 class="taitleProduct">Cartoon Astronaut T-Shirts</h3>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h4 class="priceProduct">$21</h4>
+              <div class="shopping">
+                <button class="fa-solid fa-cart-shopping" ></button>
+              </div>
+            </div>
+          </div>
+          <div class="cardProduct">
+            <div class="love-product">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+            <img class="img-product" src="img/products/f6.jpg" alt="" />
+            <div class="info">
+              <p class="taitlebarnd">asos</p>
+              <h3 class="taitleProduct">Cartoon Astronaut T-Shirts</h3>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h4 class="priceProduct">$35</h4>
+              <div class="shopping">
+                <button class="fa-solid fa-cart-shopping" ></button>
+              </div>
+            </div>
+          </div>
+          <div class="cardProduct">
+            <div class="love-product">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+            <img class="img-product" src="img/products/f7.jpg" alt="" />
+            <div class="info">
+              <p class="taitlebarnd">Bershka</p>
+              <h3 class="taitleProduct">Cartoon Astronaut Pants</h3>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h4 class="priceProduct">$25</h4>
+              <div class="shopping">
+                <button class="fa-solid fa-cart-shopping" ></button>
+              </div>
+            </div>
+          </div>
+          <div class="cardProduct">
+            <div class="love-product">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+            <img class="img-product" src="img/products/f8.jpg" alt="" />
+            <div class="info">
+              <p class="taitlebarnd">nike</p>
+              <h3 class="taitleProduct">Cartoon Astronaut T-Shirts</h3>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h4 class="priceProduct">$36</h4>
+              <div class="shopping">
+                <button class="fa-solid fa-cart-shopping" ></button>
+              </div>
+            </div>
+          </div>
+
+
+
+
+        </div>
+      </div>
+    </section>
+    <!-- End Section Products -->
+
+        <!-- Start Section Banner 1 -->
+    <section>
+      <div class="banner">
+        <div class="contentBanner">
+          <h5>Repair Services</h5>
+          <p>Up to <span> 70% Off</span> All t-Shirts & Accessories</p>
+          <button><a href="">Explore More</a></button>
+        </div>
+      </div>
+    </section>
+        <!-- End Section Banner 1 -->
+
+    <!-- Start Section Products 2-->
+    <section>
+      <div class="container">
+        <div class="special-heading">
+          <h2>Featured Products</h2>
+          <p>Summer Collection New Modern Design</p>
+        </div>
+        <div class="Products">
+          <div class="cardProduct">
+            <div class="love-product">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+            <img class="img-product" src="img/products/n1.jpg" alt="" />
+            <div class="info">
+              <p class="taitlebarnd">mango</p>
+              <h3 class="taitleProduct">Cartoon Astronaut2 T-Shirts</h3>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h4 class="priceProduct">$16</h4>
+              <div class="shopping">
+                <button class="fa-solid fa-cart-shopping" ></button>
+              </div>
+            </div>
+          </div>
+          <div class="cardProduct">
+            <div class="love-product">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+            <img class="img-product" src="img/products/n2.jpg" alt="" />
+            <div class="info">
+              <p class="taitlebarnd">adidas</p>
+              <h3 class="taitleProduct">Cartoon Astronaut T-Shirts</h3>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h4 class="priceProduct">$19</h4>
+              <div class="shopping">
+                <button class="fa-solid fa-cart-shopping" ></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="cardProduct">
+            <div class="love-product">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+            <img class="img-product" src="img/products/n3.jpg" alt="" />
+            <div class="info">
+              <p class="taitlebarnd">nike</p>
+              <h3 class="taitleProduct">Cartoon Astronaut T-Shirts</h3>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h4 class="priceProduct">$78</h4>
+              <div class="shopping">
+                <button class="fa-solid fa-cart-shopping" ></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="cardProduct">
+            <div class="love-product">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+            <img class="img-product" src="img/products/n4.jpg" alt="" />
+            <div class="info">
+              <p class="taitlebarnd">Bershka</p>
+              <h3 class="taitleProduct">Cartoon Astronaut T-Shirts</h3>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h4 class="priceProduct">$29</h4>
+              <div class="shopping">
+                <button class="fa-solid fa-cart-shopping" ></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="cardProduct">
+            <div class="love-product">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+            <img class="img-product" src="img/products/n5.jpg" alt="" />
+            <div class="info">
+              <p class="taitlebarnd">adidas</p>
+              <h3 class="taitleProduct">Cartoon Astronaut T-Shirts</h3>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h4 class="priceProduct">$18</h4>
+              <div class="shopping">
+                <button class="fa-solid fa-cart-shopping" ></button>
+              </div>
+            </div>
+          </div>
+          <div class="cardProduct">
+            <div class="love-product">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+            <img class="img-product" src="img/products/n6.jpg" alt="" />
+            <div class="info">
+              <p class="taitlebarnd">zara</p>
+              <h3 class="taitleProduct">Cartoon Astronaut Sweat-Shorts</h3>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h4 class="priceProduct">$35</h4>
+              <div class="shopping">
+                <button class="fa-solid fa-cart-shopping" ></button>
+              </div>
+            </div>
+          </div>
+          <div class="cardProduct">
+            <div class="love-product">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+            <img class="img-product" src="img/products/n7.jpg" alt="" />
+            <div class="info">
+              <p class="taitlebarnd">adidas</p>
+              <h3 class="taitleProduct">Cartoon Astronaut T-Shirts</h3>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h4 class="priceProduct">$40</h4>
+              <div class="shopping">
+                <button class="fa-solid fa-cart-shopping" ></button>
+              </div>
+            </div>
+          </div>
+          <div class="cardProduct">
+            <div class="love-product">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+            <img class="img-product" src="img/products/n8.jpg" alt="" />
+            <div class="info">
+              <p class="taitlebarnd">nike</p>
+              <h3 class="taitleProduct">Cartoon Astronaut T-Shirts</h3>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h4 class="priceProduct">$39</h4>
+              <div class="shopping">
+                <button class="fa-solid fa-cart-shopping" ></button>
+              </div>
+            </div>
+          </div>
+
+
+
+
+        </div>
+      </div>
+    </section>
+    <!-- End Section Products 2-->
+
+    <!-- Start Section Banner 2 -->
+    <section>
+      <div class="container">
+        <div class="banner2">
+          <div class="contentBanner2">
+            <h5>crazy deals</h5>
+            <h4>buy 1 get 1 free</h4>
+            <p>The best classic dress is on sale at cara</p>
+            <button><a href="">Larn More</a></button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Section Banner 2 -->
+
+    <!-- Start Section Banner 3 -->
+    <section>
+      <div class="container">
+        <div class="banner3">
+          <div class="img1">
+            <h2>SEASONAL SALE</h2>
+            <p>Winter Collection -50% OFF</p>
+          </div>
+          <div class="img2">
+            <h2>SEASONAL SALE</h2>
+            <p>Winter Collection -50% OFF</p>
+          </div>
+          <div class="img3">
+            <h2>SEASONAL SALE</h2>
+            <p>Winter Collection -50% OFF</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Section Banner 3 -->
+
+    <!-- Start Section feature  -->
+    <section id="About">
+      <div class="container">
+        <div class="feature">
+          <div class="feature-Box">
+            <img src="img/features/f1.png" alt="features" />
+            <p>Free Shipping</p>
+          </div>
+          <div class="feature-Box">
+            <img src="img/features/f2.png" alt="features" />
+            <p>Online Order</p>
+          </div>
+          <div class="feature-Box">
+            <img src="img/features/f3.png" alt="features" />
+            <p>Save Money</p>
+          </div>
+          <div class="feature-Box">
+            <img src="img/features/f4.png" alt="features" />
+            <p>Promotions</p>
+          </div>
+          <div class="feature-Box">
+            <img src="img/features/f5.png" alt="features" />
+            <p>Happy Sell</p>
+          </div>
+          <div class="feature-Box">
+            <img src="img/features/f6.png" alt="features" />
+            <p>24/7 Support</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Section feature  -->
+
+    <!-- Start Section Product Page  -->
+    <section  class="bgProductPage">
+      <div class="container" id="ContahinarPageProduct">
+      </div>
+    </section>
+    <!-- End Section Product Page  -->
+
+      <!-- Start Cart Page -->
+      <section class="bgCartPage">
+
+        <div class="perantCart">
+          
+          <i class="fa-solid fa-xmark closeCartPage" id="closeCartPage"></i>
+          
+          <div class="cartPage">
+
+            <!-- <div class="boxCart">
+              <img class="imgProductInCart" src="img/products/f4.jpg" alt="">
+              <div class="moreInfoInCart">
+                <p class="taitleProductInCat">Cartoon Astronaut T-Shirts</p>
+                <div class="iconCart">
+                  <i class="fa-regular fa-trash-can trashInCart"></i>
+                  <i class="fa-solid fa-plus PulsOne"></i>
+                  <input class="numberProductInCart"  min="1" type="number" >
+                  <i class="fa-solid fa-minus minusOne"></i>
+                </div>
+                <h6 class="priceProductInCart">$200</h6>
+              </div>
+            </div> -->
+            
+
+          </div>
+
+          <div class="totalPriceInCart">
+            <p>Total : <span class="priceSpan">$0</span></p>
+            <button class="placeOrde">Place Order</button>
+
+          </div>
+
+        </div>
+        
+
+      </section>
+      <!-- End Cart Page -->
+
+      <!-- Start Love Page -->
+      <section class="bgLovePage">
+        <div class="perantLove">
+
+          <i class="fa-solid fa-xmark closeLovePage" id="closeCartPage"></i>
+          <div class="lovePage">
+  
+
+          </div>
+  
+        </div>
+      </section>
+      <!-- End Love Page -->
+
+    <!-- Start Section footer  -->
+    <footer class="footerBGColor">
+      <div class="container">
+        <div class="footer">
+          <div class="col1">
+            <img class="logo" src="img/logo.png" alt="" />
+            <h4>Contact</h4>
+            <p>
+              <strong>Address: </strong>562 Wellington Road, Street 32, San
+              Francisco
+            </p>
+            <p><strong>Phone: </strong>+01 222 365 /(+91) 01 2345 6789</p>
+            <p><strong>Hours: </strong>10:00 - 18:00, Mon - Sat</p>
+            <div class="follow">
+              <h4>Follow us</h4>
+              <div class="icon">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-pinterest"></i>
+                <i class="fab fa-youtube"></i>
+              </div>
+            </div>
+            <div class="pay">
+              <p>Secured Payment Gateways</p>
+              <img src="img/pay/pay.png" alt="">
+            </div>
+          </div>
+          <div class="col2">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+          </div>
+          <div class="col3">
+            <h4>Install App</h4>
+            <div class="imgStore">
+              <img src="img/pay/play.jpg" alt="" />
+              <img src="img/pay/app.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright ©2024 All rights reserved | This template is made with by
+          <span><a href="https://www.facebook.com/AymanIbrahim.official" target="_blank">Ayman Ibrahim</a></span>
+        </p>
+      </div>
+    </footer>
+    <!-- End Section footer  -->
+
+
+  </body>
+</html>

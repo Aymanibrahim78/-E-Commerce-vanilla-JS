@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce - Ragister</title>
+    <!-- Link Style CSS -->
+    <link rel="stylesheet" href="CSS/style.css" />
+    <!-- Link Fonts Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!--Link Render All Elements Normally  -->
+    <link rel="stylesheet" href="CSS/normalize.css" />
+    <!-- Link Font Awesome Library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Link Js  -->
+    <script defer src="Js/main.js"></script>
+    <script defer src="Js/Register.js"></script>
+  </head>
+  <body>
+    <!-- Start Header -->
+
+    <header>
+      <div class="header">
+        <nav class="nav">
+          <div class="container">
+            <div class="navContent">
+              <a href="index.html"
+                ><img class="logo" src="img/logo.png" alt="Logo"
+              /></a>
+              <ul class="links">
+                <li><i class="fa-solid fa-xmark close"></i></li>
+                <li><a href="index.html#Home">Home</a></li>
+                <li><a href="index.html#Products">Products</a></li>
+                <li><a href="index.html#About">About</a></li>
+              </ul>
+              <div class="raghtNav">
+                <i class="fa-solid fa-heart love">
+                  <span class="products-love">0</span>
+                </i>
+                <i class="fa-solid fa-bag-shopping cart">
+                  <span class="products-number">0</span>
+                </i>
+
+                <a href="login.html" class="sign-in"
+                  ><i class="fa-solid fa-right-to-bracket"></i>Sign in</a
+                >
+                <a href="ragister.html" class="ragister"
+                  ><i class="fa-solid fa-user-plus"></i>Ragister</a
+                >
+                <i class="fas fa-outdent menu"></i>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Start Form-->
+    <section>
+      <div class="container">
+        <form>
+          <div class="formBox">
+            <label for="username">Username</label>
+            <input
+              class="username"
+              id="username"
+              type="text"
+              placeholder="Enter Username"
+            />
+            <i class="fa-solid fa-circle-check"></i>
+            <p id="user-message">at least 4 character</p>
+          </div>
+          <div class="formBox">
+            <label for="email">Email</label>
+            <input
+              class="email"
+              id="email"
+              type="email"
+              placeholder="Enter Email"
+            />
+            <i class="fa-solid fa-circle-check"></i>
+            <p id="emailmassage">Please enter a correct email address</p>
+          </div>
+          <div class="formBox">
+            <label for="password">Password</label>
+            <input
+              class="password"
+              id="password"
+              type="password"
+              placeholder="Enter Password"
+            />
+            <i class="fa-solid fa-circle-check"></i>
+            <p id="pswmessage">
+              Password must be at least 8 characters with 1 upper case letter
+              and 1 number.
+            </p>
+            <div class="ShowpassWord">
+              <p>ShowPassword</p>
+              <input type="checkbox" />
+            </div>
+          </div>
+          <div class="formBox">
+            <label for="psw-repeat">Password</label>
+            <input
+              class="psw-repeat"
+              id="psw-repeat"
+              type="password"
+              placeholder="Enter Password"
+            />
+            <i class="fa-solid fa-circle-check"></i>
+            <p id="repeatmessage">Please make sure your passwords match</p>
+            <div class="ShowpassWord ShowpassWord-repeat">
+              <p>Show Password</p>
+              <input type="checkbox" />
+            </div>
+          </div>
+          <button id="regbtn" disabled type="submit" class="Register">
+            Register
+          </button>
+          <a class="haveAccount" href="login.html">I have Account</a>
+        </form>
+      </div>
+    </section>
+    <!-- End Form-->
+
+    <!-- End Footer -->
+    <footer class="footerBGColor">
+      <div class="container">
+        <div class="footer">
+          <div class="col1">
+            <img class="logo" src="img/logo.png" alt="" />
+            <h4>Contact</h4>
+            <p>
+              <strong>Address: </strong>562 Wellington Road, Street 32, San
+              Francisco
+            </p>
+            <p><strong>Phone: </strong>+01 222 365 /(+91) 01 2345 6789</p>
+            <p><strong>Hours: </strong>10:00 - 18:00, Mon - Sat</p>
+            <div class="follow">
+              <h4>Follow us</h4>
+              <div class="icon">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-pinterest"></i>
+                <i class="fab fa-youtube"></i>
+              </div>
+            </div>
+            <div class="pay">
+              <p>Secured Payment Gateways</p>
+              <img src="img/pay/pay.png" alt="" />
+            </div>
+          </div>
+          <div class="col2">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+          </div>
+          <div class="col3">
+            <h4>Install App</h4>
+            <div class="imgStore">
+              <img src="img/pay/play.jpg" alt="" />
+              <img src="img/pay/app.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright ©2024 All rights reserved | This template is made with by
+          <span
+            ><a
+              href="https://www.facebook.com/AymanIbrahim.official"
+              target="_blank"
+              >Ayman Ibrahim</a
+            ></span
+          >
+        </p>
+      </div>
+    </footer>
+    <!-- End Footer -->
+    <br />
+    <br />
+  </body>
+</html>
